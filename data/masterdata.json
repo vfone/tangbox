@@ -1,0 +1,219 @@
+{
+	"Config":
+		{
+			"_comment": "SeekTitle would be UI, UX, FE. Publishable for website. Printable for print format (word, pdf, json). LoadSize determines how many relevant items display, 999 means all",
+			"SeekTitle": "FE",
+			"WebTemplate": "standard",
+			"PrintTemplate": "standard",
+			"Publishable": ["Employment","Education","Skill"],
+			"Printable":["Employment","Education","Skill"],
+			"DisplayOrder": "LatestFirst",
+			"EmpolymentLoadSize": 5,
+			"ProjectLoadSize": 2,
+			"MemberLoadSize": 3,
+			"EducationLoadSize" : 999,
+			"SkillLoadSize": 999
+		}
+	,
+	"Me":
+    {
+      "FirstName": "Vito",
+    	"LastName":	"Tang",
+      "Avatar": "image64",
+    	"Gender": "Male",
+    	"DOB": "1982-07",
+    	"JobTitle": "Front End Developer",
+    	"Mobile": "0433 671 596",
+    	"Email": "vito@tangbox.com.au",
+      "Address": "123 Abc St, Sydney, 2000"
+    }
+	,
+	"Employment": [
+		{
+			"Company": "Netoss",
+			"CompanyLogo": "base64image",
+			"JobTitle": "Co-founder",
+			"CompanyDesc": "Netoss is a creative and web development studio where we work with clients and customize service base on requirements.",
+			"JobStart": "2012-06",
+			"JobEnd": "",
+			"Project": [
+				{
+					"ProjectName": "Live4",
+					"ProjectURL": "http://www.live4.com.au",
+					"ProjectDesc": "<p>Live4 is one of main divisions of NRMA for online lifestyle where post news and information in travel, sport, technology and so on. <strong>WordPress</strong> is behind the site and that is designed for different devices with <strong>'responsive web design'</strong> concept.</p> <p>I’ve worked closely with graphic designers and backend (PHP) developers in layout and database designs besides frontend coding and technology consultation.<p>",
+					"ProjectTechnology": ["HTML", "LESS", "Bootstrap", "Fontawesome", "jQuery", "WordPress"],
+					"ProjectCategory": ["UI", "UX", "FE"],
+					"ProjectDuty": [
+						{
+							"UI": "My responsibilities in user interface design part",
+							"UX": "My responsibilities in user experience design part",
+							"FE": "My responsibilities in front end part"
+						}
+					],
+					"ProjectMember": [									{
+							"FullName":"Leanne Roberts",
+							"Email": "leanne.roberts@communityengine.com."
+						},
+						{
+							"FullName":"Tanya Nicholas",
+							"Email": "tanya.nicholas@communityengine.com"
+						}
+					]
+				},
+				{
+					"ProjectName": "Aurora",
+					"ProjectURL": "http://www.aurora.com.au",
+					"ProjectDesc": "<p>Aurora is … …<p>",
+					"ProjectTechnology": ["HTML", "LESS", "Bootstrap", "jQuery"],
+					"ProjectCategory": ["UI", "UX", "FE"],
+					"ProjectDuty": [
+						{
+							"UI": "My responsibilities in user interface design part",
+							"UX": "My responsibilities in user experience design part",
+							"FE": "My responsibilities in front end part"
+						}
+					],
+					"ProjectMember": [									{
+							"FullName":"Murray Chapman",
+							"Email": "murrayc@vittoriacoffee.com"
+						},
+						{
+							"FullName":"Shidong Yu",
+							"Email": "shidong@vittoriacoffee.com"
+						},
+						{
+							"FullName":"Bianca Roggio",
+							"Email": "biancar@vittoriacoffee.com"
+						}
+					]
+				}
+			]
+		},
+		{
+			"Company": "ABC",
+			"CompanyLogo": "base64image",
+			"JobTitle": "Front End Engineer",
+			"CompanyDesc": "The Australian Broadcasting Corporation is Australia's state-owned and funded national public broadcaster. It plays a leading role in the history of broadcasting in Australia.",
+			"JobStart": "2015-05",
+			"JobEnd": "2015-08",
+			"Project": [
+				{
+					"ProjectName": "wCMS",
+					"ProjectDesc": "a suite offers unique business value by seamlessly integrating <strong>digital</strong> and <strong>social media</strong> assets, increasing editorial productivity and accelerating time to market in complex environments. As a result, businesses can more effectively execute online strategies to engage users, build customer loyalty and ultimately drive greater revenue and profitability.",
+					"ProjectTechnology": ["HTML", "SCSS", "jQuery", "freemarker", "Java"],
+					"ProjectCategory": ["FE"],
+					"ProjectDuty": [
+						{
+							"FE": "My responsibilities in front end part"
+						}
+					],
+					"ProjectMember": [
+						{
+							"FullName":"Steven Parr",
+							"Email": "steven.parr@abc.net.au"
+						},												{
+							"FullName":"Matthew Brennan",
+							"Email": "matthew.brennan@abc.net.au"
+						}
+					]
+				}
+			]
+		}
+
+	],
+	"Education": [
+		{
+		  "Degree": "Master in IT",
+		  "Insititute": "UTS",
+		  "CompletionYear": "2007"
+		},
+		{
+  		"Degree": "Bachelor of Telecommunication",
+  		"Insititute": "SCUN",
+  		"CompletionYear": "2003"
+		}
+  ],
+  "Skill":
+    {
+      "Frontend":
+        {
+          "HTML/5": 9,
+          "CSS/3": 8,
+          "LESS": 7,
+          "JAVASCRIPT": 8,
+          "JQUERY": 8,
+          "JQ.MOBILE": 7,
+          "ANGULARJS": 7,
+          "METEOR": 6,
+          "BOOTSTRAP": 8,
+          "JSON/JSONP": 8,
+          "XML": 8,
+          "JPML": 8,
+          "FEO": 8,
+          "W3C": 8,
+          "WCAG/2": 7,
+          "API": 7
+        }
+      ,
+      "Backend":
+        {
+          "ASP": 7,
+          "C#": 5,
+          "VB": 5,
+          "PHP": 4,
+          "PERL": 3,
+          "SQL": 7
+        }
+      ,
+      "UI/UX":
+        {
+          "WIREFRAME": 7,
+          "UX DESIGN": 7,
+          "RESPONSIVE": 8,
+          "OMNIGRAFFLE": 8,
+          "BALSAMIQ": 8,
+          "PHOTOSHOP": 8,
+          "ILLUSTRATOR": 8,
+          "FIREWORK": 6,
+          "INDESIGN": 6,
+          "FLASH": 7
+        }
+      ,
+      "App Dev":
+        {
+          "PHONEGAP": 6
+        }
+      ,
+      "Knowledge":
+        {
+          "AGILE": 8,
+          "TYPOGRAPHY": 7,
+          "COLOR THEORY": 7,
+          "SEO": 7,
+          "JSP/JAVA": 6,
+          "GIT/VERSIONING": 7,
+          "GRID SYSTEM": 8,
+          "JS FRAMEWORK": 7,
+          "MOBILE FIRST": 8,
+          "CMS": 7,
+          "SEMIOLOGY": 4,
+          "CRM": 8
+        }
+
+    }
+  ,
+  "Award":{},
+  "Publication": {},
+  "PetProject":{
+  		"blackhat":{
+  		  "ProjectURL": "",
+  			"ProjectDesc":"",
+  			"ProjectStatus": "thinking"
+  		},
+  		"hour":{
+  		  "ProjectURL": "",
+  			"ProjectDesc":"",
+  			"ProjectStatus": "thinking"
+  		}
+  }
+}
